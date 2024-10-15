@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    ;
+
+
+}
+#logo
+{
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+    padding: 6px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(179, 178, 178);
+}
+#D1
+{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+}
+.items
+{
+    display: inline;
+    margin-right: 10px;
+   
+}
+.link
+{
+    font-family: "Overpass", sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+.link:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.homecontent{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name{
+    font-size: 50px;
+}
+#button
+{
+    background-color: black;
+    color: darkgoldenrod;
+    border: 2px solid gold;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Overpass", sans-serif; ;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.homeimages
+{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    top: 0;
+    right: 40px;
+    top: 60px;
+}
+.group{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    transition: left 2s, bottom 2s;
+}
+#shape{
+    width: 550px;
+}
+.homeimages:hover #shape{
+    left: -30px;
+}
+.homeimages:hover #men{
+    bottom: 20px;
+    
+}
+#head{
+    font-size: 40px;
+    color: blue;
+    font-family: "Gowun Batang", serif;
+
+}
+#subhead{
+    font-size: 30px;
+    color: rgb(0, 143, 199);
+    font-family: "Spicy Rice", serif;
+}
+.aboutbody
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutcontent{
+    font-size: 20px;
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-right: 10px;
+}
+.contact
+{
+    margin-top: 10px;
+
+  
+}
+#skill
+{
+    font-size: 40px;
+    font-family: "Spicy Rice", serif;
+}
+#info{
+    font-size: 20px;
+}
+.skillbody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 10px;
+}
+.bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    position: relative;
+   
+}
+.barpercent{
+    font-weight: bold;
+    font-size: 20px;
+}
+.basebar{
+    width: 100%;
+    background-color: black;
+    height: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0.5rem;
+    
+}
+.progressbar
+{
+    position: relative;
+}
+.basebarhtml
+{
+    background-color: chocolate;
+    width: 90%;
+}
+.basebarcss
+{
+    background-color: chocolate;
+    width: 85%;
+}
+.basebarBST
+{
+    background-color: chocolate;
+    width: 83%;
+}
+.basebarjst
+{
+    background-color: chocolate;
+    width: 80%;
+}
+#contact
+{
+    font-size: 40px;
+    font-family: "Spicy Rice", serif;
+}
+#mycontact{
+    font-size: 20px;
+}
+.contacts
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.icons
+{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+.con{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkkhaki;
+    margin-top: 30px;
+    padding: 2px;
+    margin-bottom: 40px;
+
+}
+.social{
+    color: black;
+    
+}
+.con:hover{
+    background-image: linear-gradient(to bottom right ,white, red,yellow ,orange,blue);
+    animation: rotate 0.5s;
+
+}
+.social:hover{
+    color: white;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(30deg);
+   }
+    25%{
+        transform: rotate(-30deg);
+    }    
+    50%{
+        transform: rotate(30deg);
+    }   
+    75%{
+        transform: rotate(-30deg);
+    }   
+    100%{
+        transform: rotate(30deg);
+    }    
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+#up{
+    float: right;
+    margin: -40px
+    30px 30px 0px;
+}
+#copyright{
+    text-align: center;
+    font-weight: bolder;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px
+    ;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(155, 77, 77);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(184, 184, 167);
+    border-radius: 10px;
+}
